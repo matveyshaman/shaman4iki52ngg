@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.block-menu {
+    overflow: hidden;
+    background-color: #999999;
+    position: relative;
+    padding: 30px;
+    padding-left: 80px;
+}
+
+.menu {
+    margin: 10px 25px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menu a {
+    list-style: none;
+    float: left;
+    margin: 10px 25px;
+    text-decoration: none;
+    font: 16px Arial;
+    color: rgb(63, 63, 63);
+}
+
+.menu a:hover {
+    font: 17px Arial;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font: 70px Arial;
+}
+
+.getero {
+    font: 25px Arial;
+    float: left;
+    color: rgb(63, 63, 63);
+}
+
+.text {
+    position: absolute;
+    display: table;
+}
+
+.kva {
+    background-color: rgb(59, 59, 59);
+    display: flex;
+}
+
+.wrapper {
+	height: 350px;
+	margin: 100px auto 0;
+	position: relative;
+	width: 700px;
+}
+
+.slider {
+	background-color: #575757;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+
+.wrapper input {
+	display: none;
+}
+
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+    color: #575757;
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label:after {
+	border: 2px solid #575757;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
