@@ -60,14 +60,9 @@ h1 {
     display: table;
 }
 
-.kva {
-    background-color: rgb(59, 59, 59);
-    display: flex;
-}
-
 .wrapper {
 	height: 350px;
-	margin: 100px auto 0;
+	margin: 100px 80px 0 auto;
 	position: relative;
 	width: 700px;
 }
@@ -90,10 +85,10 @@ h1 {
 	width: inherit;
 }
 
-.wrapper .controls {
-	left: 50%;
-	margin-left: -98px;
-	position: absolute;
+.controls {
+	margin: 25px auto;
+	position: fixed;
+	overflow: hidden;
 }
 
 .wrapper label {
@@ -101,7 +96,7 @@ h1 {
 	cursor: pointer;
 	display: inline-block;
 	height: 8px;
-	margin: 25px 12px 0 16px;
+	margin: 25px 12px 25px 16px;
 	position: relative;
 	width: 8px;
 	-webkit-border-radius: 50%;
@@ -123,4 +118,5 @@ h1 {
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
+	background-color: #575757;
 }
