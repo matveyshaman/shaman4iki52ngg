@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+<style>
+
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	#slider, #slider2 p{
+		text-align: center;
+		font-size: 28px;
+		font-weight: bolder;
+		transition: 0.3s;
+	}
+
+	#slider2, #slider3{
+		margin: 20px auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#slider2{
+		width: 30%;
+	}
+
+	#slider3{
+		flex-direction: column;
+		padding: 10px;
+		width: 370px;
+		background: black;
+	}
+
+	img, #slider3 button{
+		width: 350px;
+	}
+
+	img{
+		border: 2px solid #fff;
+		padding: 10px;
+		background: #fff;
+	}
+
+	#slider3 button{
+		background: #fff;
+		border-radius: 0px;
+		border: none;
+		font-weight: bolder;
+		padding: 5px;
+		margin: 10px;
+	}
+
+	#status{
+		height: 10px;
+		width: 0px;
+		background: #fff;
+/*		background-image: url(img/1.png);
+		object-fit: scale-down;
+		background-position: center;*/
+		align-self: flex-start;
+		margin-top: 10px;
+	}
+
+</style>
+
+	<p id="slider"></p>
+
+	<div id="slider2">
+		<button onclick="prevText()"><<<</button>
+		<p></p>
+		<button onclick="nextText()">>>></button>
+	</div>
+
+	<div id="slider3">
+		<button onclick="prevImg()"><<<</button>
+		<img src="" alt="">
+		<div id="status"></div>
+		<button onclick="nextImg()">>>></button>
+	</div>
+
+
+	<script>
+		let curentText = 0;
+		let curentText1 = 0;
+		let j = 0;
+		let k = 0;
+		let pWidth = 0;
+
+		const texts = ['Привет', 'я слайдер', 'переключаюсь', 'сам', 'или', 'кнопкой'];
+		const imgs = ['1.jpg', '2.jpg', '3.jpg']
+
+		document.querySelector('#slider3 img').src = 'img/'+imgs[k];
+		const progres = document.querySelector('#status');
+		const imgSlider = document.querySelector('#slider3 img');
+		const sliders = document.querySelectorAll('#slider, #slider2 p');
+		for (let elem of sliders)
+			elem.textContent = texts[curentText];
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+		changeText = () =>{
+			curentText = (curentText+1)%texts.length;
+			document.querySelector('#slider').textContent = texts[curentText];
+		}
+
+////////////////////////////////////////////////////////////////////////////////////
+
+		nextText = () => {
+			curentText1 = (curentText1+1)%texts.length;
+			document.querySelector('#slider2 p').textContent = texts[curentText1];
+			console.log(curentText1);		
+		}
+
+		prevText = () => {
+			curentText1 = (curentText1-1<0) ? curentText1=texts.length-1 : (curentText1-1)%texts.length;
+			document.querySelector('#slider2 p').textContent = texts[curentText1];
+			console.log(curentText1);
+		}
+
+//////////////////////////////////////////////////////////////////////////////////
+
+		nextImg = () => {
+			k++;
+			if (k==imgs.length)
+				k=0;
+			document.querySelector('#slider3 img').src = 'img/'+imgs[k];
+			pWidth = 0;
+		}
+
+		prevImg = () => {
+			k--;
+			if (k==-1)
+				k=imgs.length-1;
+			document.querySelector('#slider3 img').src = 'img/'+imgs[k];
+			pWidth = 0;
+		}
+
+////////////////////////////////////////////////////////////////////////////////
+
+		statusUp = function(){
+			progres.style.width = pWidth+'px';	
+			if (progres.offsetWidth>imgSlider.offsetWidth){
+				pWidth=0;
+				nextImg();
+			}
+			pWidth+=1;
+		}
+
+///////////////////////////////////////////////////////////////////////////////
+
+		setInterval(statusUp, 25);
+		setInterval(changeText, 500);
+
+	</script>
+</body>
+</html>
