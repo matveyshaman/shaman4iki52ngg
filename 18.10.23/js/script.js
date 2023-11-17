@@ -27,12 +27,11 @@ RemoveElem=function(button){
 }
 
 
-document.querySelector('main').addEventListener('click', function(event) {
-	let target=event.target;
-  if (target.tagName.toLowerCase() === 'div') {
-		if	(!target.style.borderRadius)
-			target.style.borderRadius='50%';
-		else target.style.borderRadius='';
+document.querySelector('body').addEventListener('click', function(event) {
+  if (event.target.tagName.toLowerCase() === 'div') {
+		if	(!event.target.style.borderRadius)
+			event.target.style.borderRadius='50%';
+		else event.target.style.borderRadius='';
   }
 });
 
@@ -50,5 +49,3 @@ for (let elem of pass){
 		}
 		})
 }
-
-
