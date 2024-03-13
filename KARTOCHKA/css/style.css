@@ -1,0 +1,18 @@
+.cart{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 645px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart__name{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.cart__price{
+    font-size: 30px;
+}
