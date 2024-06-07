@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 803.87 114.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_119);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7, .cls-8 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7, .cls-9 {
+        stroke-width: .75px;
+      }
+
+      .cls-11 {
+        font-family: MyriadConceptRoman-Bold, 'Myriad Variable Concept';
+        font-size: 6px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+      }
+
+      .cls-11, .cls-12 {
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #16478e;
+      }
+
+      .cls-13 {
+        fill: #a62b6a;
+      }
+
+      .cls-8 {
+        stroke-width: 2px;
+      }
+
+      .cls-14 {
+        fill: #072a7b;
+        font-family: FiraSans-BlackItalic, 'Fira Sans';
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-3, .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        filter: url(#drop-shadow-1);
+        font-family: Tahoma-Bold, Tahoma;
+        font-size: 12.9px;
+        letter-spacing: 0em;
+        opacity: .5;
+      }
+
+      .cls-15 {
+        font-size: 11.47px;
+        letter-spacing: .01em;
+      }
+
+      .cls-15, .cls-16 {
+        font-family: Tahoma, Tahoma;
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_19);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-9 {
+        fill: url(#_Безымянный_градиент_138);
+        stroke: #16478e;
+      }
+
+      .cls-10 {
+        fill: url(#_Безымянный_градиент_7);
+        stroke: #b42d08;
+      }
+
+      .cls-17 {
+        fill: #001fee;
+      }
+
+      .cls-16 {
+        font-size: 11px;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_119" data-name="Безымянный градиент 119" x1="700.91" y1="214.41" x2="400.66" y2="-96.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#001b9b"/>
+      <stop offset=".22" stop-color="#0033be"/>
+      <stop offset=".52" stop-color="#0058f3"/>
+      <stop offset=".71" stop-color="#025af3"/>
+      <stop offset=".81" stop-color="#0961f4"/>
+      <stop offset=".88" stop-color="#176ff7"/>
+      <stop offset=".95" stop-color="#2981fa"/>
+      <stop offset="1" stop-color="#3f97ff"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur" stdDeviation="0"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="_Безымянный_градиент_138" data-name="Безымянный градиент 138" x1="512.27" y1="101.49" x2="512.27" y2="79.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6982ee"/>
+      <stop offset=".03" stop-color="#6f88ee"/>
+      <stop offset=".14" stop-color="#87a0ef"/>
+      <stop offset=".27" stop-color="#9ab3f0"/>
+      <stop offset=".42" stop-color="#a7c1f1"/>
+      <stop offset=".62" stop-color="#aec8f1"/>
+      <stop offset="1" stop-color="#b1cbf2"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_7" data-name="Безымянный градиент 7" x1="788.43" y1="25.1" x2="788.43" y2="5.12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c83004"/>
+      <stop offset="1" stop-color="#e97b62"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_19" data-name="Безымянный градиент 19" x1="328.1" y1="80.29" x2="328.1" y2="50.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86abd5"/>
+      <stop offset=".22" stop-color="#9ec1e5"/>
+      <stop offset=".48" stop-color="#c3e3ff"/>
+      <stop offset="1" stop-color="#d0ecfa"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <g>
+          <path class="cls-1" d="M302.75,0h496.11c2.76,0,5,2.24,5,5v109.98h-506.12V5c0-2.76,2.24-5,5-5Z"/>
+          <rect class="cls-3" x="300.88" y="29.2" width="499.99" height="82.94"/>
+        </g>
+        <text class="cls-12" transform="translate(323.34 20.42)"><tspan x="0" y="0">Время начала действия</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-9" x="473.79" y="79.15" width="76.96" height="22.34" rx="1.66" ry="1.66"/>
+        <rect class="cls-3" x="477.23" y="81.86" width="70.09" height="16.93"/>
+        <text class="cls-15" transform="translate(503.46 94.59)"><tspan x="0" y="0">Да</tspan></text>
+      </g>
+      <text id="_Пароль_успешно_изменен_и_сохранен" data-name="Пароль успешно изменен и сохранен" class="cls-16" transform="translate(361.56 50.32)"><tspan class="cls-6"><tspan x="0" y="0">Вы действительно хотите задать для всех КА время начала действия кода НСГ </tspan></tspan><tspan class="cls-6" x="0" y="13.2">1</tspan><tspan class="cls-5" x="6.11" y="13.2">7</tspan><tspan class="cls-6" x="11.42" y="13.2">.01.2018 22:00:00 МДВ</tspan></text>
+      <g>
+        <g>
+          <rect class="cls-10" x="778.44" y="5.12" width="19.98" height="19.98" rx="1.66" ry="1.66"/>
+          <rect class="cls-7" x="777.68" y="4.36" width="21.51" height="21.51" rx="1.66" ry="1.66"/>
+        </g>
+        <line class="cls-8" x1="793.43" y1="10.11" x2="783.44" y2="20.1"/>
+        <line class="cls-8" x1="793.43" y1="20.1" x2="783.44" y2="10.11"/>
+      </g>
+      <g>
+        <g>
+          <path class="cls-3" d="M557.7,79.16h73.64c.64,0,1.16.52,1.16,1.16v19.02c0,.64-.52,1.16-1.16,1.16h-73.63c-.64,0-1.16-.52-1.16-1.16v-19.02c0-.64.52-1.16,1.16-1.16Z"/>
+          <path class="cls-2" d="M631.33,79.66c.37,0,.66.3.66.66v19.02c0,.37-.3.66-.66.66h-73.63c-.37,0-.66-.3-.66-.66v-19.02c0-.37.3-.66.66-.66h73.63M631.33,78.66h-73.63c-.92,0-1.66.74-1.66,1.66v19.02c0,.92.74,1.66,1.66,1.66h73.63c.92,0,1.66-.74,1.66-1.66v-19.02c0-.92-.74-1.66-1.66-1.66h0Z"/>
+        </g>
+        <text class="cls-15" transform="translate(573.87 94.11)"><tspan x="0" y="0">Отмена</tspan></text>
+      </g>
+    </g>
+    <g>
+      <path class="cls-4" d="M343.1,62.63c0-6.9-6.72-12.5-15-12.5s-15,5.6-15,12.5c0,6.22,5.46,11.37,12.61,12.33h-.09s5.13,5.34,5.13,5.34v-5.36h-.07c7.05-1.02,12.42-6.13,12.42-12.3Z"/>
+      <text class="cls-14" transform="translate(324.87 69.89)"><tspan x="0" y="0">?</tspan></text>
+    </g>
+  </g>
+  <text class="cls-11" transform="translate(304 13.24)"><tspan class="cls-17"><tspan x="0" y="0">1010</tspan></tspan><tspan class="cls-13"><tspan x="0" y="5">1111 </tspan></tspan></text>
+</svg>
